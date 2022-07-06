@@ -74,6 +74,7 @@
   font-weight: 600;
   margin-left: 50px;
   color: rgba(0, 0, 0, 0.573);
+  background-color: tomato;
 }
 #donate-section input {
   border: none;
@@ -89,6 +90,12 @@
   text-align: center;
   color: rgba(0, 0, 0, 0.392);
   font-weight: 500;
+}
+.box span {
+  padding: 38px 25px;
+  border-radius: 4px;
+  background-color: rgb(241 241 241 / 53%);
+  color: rgb(82 80 80 / 68%);
 }
 .box .money-box {
   border: 2px solid tomato;
