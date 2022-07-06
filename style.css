@@ -28,7 +28,7 @@
   font-size: 16px;
   padding: 20px 0;
 }
-.topBar button {
+button {
   background-color: tomato;
   border: none;
   outline: none;
@@ -38,4 +38,102 @@
   font-size: 18px;
   text-transform: capitalize;
   margin-top: 15px;
+  cursor: pointer;
+}
+/* /////////////donate-money start///////////// */
+#donate-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 0;
+  text-align: center;
+}
+#donate-section h1 {
+  font-size: 37px;
+  font-weight: 600px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.885);
+}
+#donate-section p {
+  padding: 20px 0;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.606);
+  line-height: 1.5;
+  font-weight: 400;
+}
+.donate-amonunt {
+  display: flex;
+  padding: 60px;
+}
+.donate-amonunt span {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 50px;
+  color: rgba(0, 0, 0, 0.573);
+}
+#donate-section input {
+  border: none;
+  outline: none;
+  width: 50%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.352);
+  margin: 30px 0px 15px 0;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 18px;
+}
+::placeholder {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.392);
+  font-weight: 500;
+}
+.box .money-box {
+  border: 2px solid tomato;
+  padding: 38px 25px;
+  border-radius: 4px;
+  background-color: rgba(255, 99, 71, 0.16);
+  color: tomato;
+}
+/* ////////////donate-plan start/////////////////// */
+#donate-plan {
+  text-align: center;
+}
+#donate-plan h1 {
+  font-size: 37px;
+  font-weight: 600px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.885);
+  text-transform: capitalize;
+}
+#donate-plan p {
+  padding: 20px 0;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.606);
+  line-height: 1.5;
+  font-weight: 400;
+}
+.donate-box {
+  display: flex;
+  padding: 50px 100px;
+}
+.donate-box .box {
+  background-color: rgba(255, 99, 71, 0.255);
+  padding: 40px;
+  text-align: left;
+  margin-left: 20px;
+  border-radius: 3px;
+}
+.donate-box .box img {
+  width: 70px;
+}
+.donate-box .box h2 {
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.donate-box .box2 {
+  background-color: rgba(23, 8, 232, 0.19);
+}
+.donate-box .box3 {
+  background-color: rgba(17, 203, 17, 0.19);
 }
